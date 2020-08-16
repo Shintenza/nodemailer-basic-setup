@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contanct form</title>
+    <link rel="stylesheet" href="public/css/main.css">
+</head>
+
+<body>
+    <section class="contact">
+        <div class="mainContainer">
+            <div class="formHeader">
+                Formularz kontaktowy
+            </div>
+            <form class="contactForm" action="send" method="POST">
+                <input type="email" placeholder="Wprowadź swój adres email" class="emailBox" name="emailBox">
+                <textarea name="textBox" placeholder="Wpisz swoją wiadomość" class="textBox" cols="30"
+                    rows="10"></textarea>
+                <button class="btn" type="submit">
+                    Wyślij
+                </button>
+                {{msg}}
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

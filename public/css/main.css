@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2a2a2a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.mainContainer {
+  width: 30vw;
+  padding: 10px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  border-radius: 10px;
+}
+.formHeader {
+  font-size: 2rem;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+.textBox,
+.emailBox {
+  background-color: #2a2a2a;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  outline: none;
+  border-radius: 5px;
+}
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  border: red 2px solid;
+  border-radius: 20px;
+}
